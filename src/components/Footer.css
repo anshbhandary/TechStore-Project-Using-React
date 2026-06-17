@@ -1,0 +1,17 @@
+.footer{
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border-color);
+    text-align:center;
+    padding:50px;
+    margin-top:50px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .socials{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    font-size:1.5rem;
+    margin:20px 0;
+  }

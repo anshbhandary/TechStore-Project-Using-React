@@ -1,0 +1,17 @@
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:60px;
+  }
+  
+  .stat-card{
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px var(--shadow-color);
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    width:250px;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
